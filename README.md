@@ -1,33 +1,33 @@
-# Chat with PDF 
-This Repo implements chat with your PDF via a GUI. This Code utilized OpenAI's LLM and Embedding models for information retreival from your documents. 
+# Chat mit PDF
 
+Dieses Repository implementiert einen Chat mit Ihrem PDF über eine grafische Benutzeroberfläche (GUI). Dieser Code verwendet OpenAI's LLM- und Embedding-Modelle zur Informationsgewinnung aus Ihren Dokumenten.
 
 ![ChatApp UI](https://github.com/PromtEngineer/PDF_Chat-GUI/assets/134474669/bba57a81-909f-4fe3-91cd-96ae14c17438)
 
-## Clone the Repo:
-Clone the repository. 
+## Repository klonen:
+Klonen Sie das Repository.
 ```shell
 git clone https://github.com/PromtEngineer/PDF_Chat-GUI.git
-```
 
-## Environment Setup
-In order to set your environment up to run the code here, first install all requirements:
+## Umgebung einrichten
+Um Ihre Umgebung für die Ausführung des Codes hier einzurichten, installieren Sie zuerst alle Anforderungen:
 
 ```shell
 pip install -r requirements.txt
 ```
 
-## OpenAI API Key 
+## OpenAI API-Schlüssel
 
-You will need the OpenAI API key to run this, get your OpenAI key from [here](https://platform.openai.com/account/api-keys)
-In the `.env` set your API key. 
+Sie benötigen den OpenAI API-Schlüssel, um dies auszuführen. Holen Sie sich Ihren OpenAI-Schlüssel von [hier](https://platform.openai.com/account/api-keys).
+Setzen Sie in der `.env` Ihren API-Schlüssel ein.
 
 ```shell
 OPENAI_API_KEY=
 ```
 
-## Run the WebApp:
+## Starten der Webanwendung:
 
 ```shell
 streamlit run ChatPDF.py
+```
 ```
